@@ -3,13 +3,13 @@ import {
   Dimensions,
   StyleSheet,
 } from 'react-native';
-import ScreenOne from './src/screens/ScreenOne';
+import HomePage from './src/screens/HomePage';
 const {width} = Dimensions.get('window');
 
 function App() {
   return (
     <ScrollView style={style.parent}>
-      <ScreenOne />
+      <HomePage />
     </ScrollView>
   );
 }

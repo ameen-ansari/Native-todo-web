@@ -1,17 +1,21 @@
 import React from 'react';
-import {Text, View, StyleSheet, Image, TouchableOpacity} from 'react-native';
+import {Alert, Text, View, Image, TouchableOpacity} from 'react-native';
 import {menu, profile} from '../../../assets/images/homePage/images';
+import {navbarStyle as style} from '../../utils/homePage/Styles';
 
 const Navbar = () => {
+  const Ref = () => {
+    Alert.alert('Action Not Included In Requirments');
+  };
   return (
     <View style={style.navbar}>
       <View style={style.navs}>
-        <TouchableOpacity>
+        <TouchableOpacity onPress={Ref}>
           <Image style={style.menu} source={menu} />
         </TouchableOpacity>
         <Text style={style.date}>June 03, 2020</Text>
       </View>
-      <TouchableOpacity>
+      <TouchableOpacity onPress={Ref}>
         <Image source={profile} style={style.profile} />
       </TouchableOpacity>
     </View>
@@ -19,37 +23,3 @@ const Navbar = () => {
 };
 
 export default Navbar;
-
-const style = StyleSheet.create({
-  navbar: {
-    marginTop: 64,
-    flexDirection: 'row',
-    justifyContent: 'space-between',
-  },
-  navs: {
-    flexDirection: 'row',
-    alignItems: 'center',
-    marginLeft: 19,
-  },
-  menu: {
-    width: 40,
-    height: 40,
-  },
-  date: {
-    fontSize: 13,
-    fontWeight: 400,
-    lineHeight: 15,
-    marginLeft: 20,
-  },
-  profile: {
-    width: 48,
-    height: 48,
-    marginRight: 20,
-  },
-  cardsParent: {
-    marginLeft: 20,
-    marginTop: 16,
-    flexDirection: 'row',
-    flexWrap: 'wrap',
-  },
-});

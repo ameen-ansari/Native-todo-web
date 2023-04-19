@@ -5,6 +5,8 @@ import card2 from '../homePageImgs/card2.png'
 import card3 from '../homePageImgs/card3.png'
 import card4 from '../homePageImgs/card4.png'
 import arrow from '../homePageImgs/Vector.png'
+import clipboard from '../homePageImgs/clipboard.png'
+import clock from '../homePageImgs/clock.png'
 
 export {
     menu,
@@ -13,5 +15,7 @@ export {
     card2,
     card3,
     card4,
-    arrow
+    arrow,
+    clipboard,
+    clock
 }

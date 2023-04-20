@@ -1,11 +1,13 @@
-import { View, Text } from 'react-native'
-import React from 'react'
+import { ScrollView, Text } from 'react-native'
+import Navbar from '../components/tasksPage/Navbar'
+import Calender from '../components/tasksPage/Calender'
 
  const TasksPage = () => {
   return (
-    <View>
-      <Text>TasksPage</Text>
-    </View>
+    <ScrollView  style={{backgroundColor:'rgba(253, 253, 253, 1)'}}>
+      <Navbar />
+      <Calender />
+    </ScrollView>
   )
 }
 

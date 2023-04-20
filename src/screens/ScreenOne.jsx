@@ -8,10 +8,10 @@ import {
 } from 'react-native';
 import LinearGradient from 'react-native-linear-gradient';
 import {
-  heroPngImg,
   nextPngImg,
+  heroPngImg,
   bottomSidtBgPngImg,
-} from '../../assets/images/screenOneImgs/images';
+} from '../../assets/images/screenOne/images';
 import {useNavigation} from '@react-navigation/native';
 import {style} from '../utils/screenOne/styles';
 

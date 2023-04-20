@@ -2,7 +2,6 @@ import { card1 , card2 , card3 , card4 } from "../../../assets/images/homePage/i
 
 const data = [
     {
-        data: 'xyz',
         id: 1,
         height: 206,
         angle: 10.5,
@@ -25,7 +24,6 @@ const data = [
         },
     },
     {
-        data: 'xyz',
         id: 2,
         height: 145,
         angle: 28.14,
@@ -48,7 +46,6 @@ const data = [
         },
     },
     {
-        data: 'xyz',
         id: 3,
         height: 135,
         angle: 23.37,
@@ -71,7 +68,6 @@ const data = [
         },
     },
     {
-        data: 'xyz',
         id: 4,
         height: 206,
         angle: 18.51,
